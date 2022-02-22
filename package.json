@@ -1,0 +1,24 @@
+{
+  "name": "web_scraping_blog_gov",
+  "version": "1.0.0",
+  "description": "web scraping blog gov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmess/web_scraping_blog_gov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmess/web_scraping_blog_gov/issues"
+  },
+  "homepage": "https://github.com/Cosmess/web_scraping_blog_gov#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
