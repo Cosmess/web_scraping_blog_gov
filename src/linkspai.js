@@ -1,6 +1,6 @@
 const axios = require('axios');
 const cheerio= require('cheerio');
-const { children, not } = require('cheerio/lib/api/traversing');
+
 
 const urlpai = 'https://www.gov.br/pt-br/noticias/ultimas-noticias?b_start:int=0';
 
@@ -11,7 +11,7 @@ axios.get(urlpai)
     const dados = []
     $('[class="summary url"]').each((i,e)=>{
         const link = $(e).attr('href');
-       //console.log(link);
+
        dados.push(link);
     });
     console.log(dados);
